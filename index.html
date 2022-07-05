@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>start_project</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="pagewrapper">
+
+
+    <main class="main">
+      <section class="popup">
+        <button class="popup__btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Popup button
+        </button>
+
+      </section>
+
+
+
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered                                           ">
+          <div class="modal-content">
+
+
+
+            <div class="modal-body">
+
+              <!-- First step -->
+
+              <div class=" modal__window show__window modal__first firstwindow">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                </div>
+                <h2 class="modal__title">
+                  Welcome to Care Indeed
+                </h2>
+                <div class="modal__subtitle">
+                  <p>
+                    Choose the option that best describes your situation
+                  </p>
+                </div>
+                <div class="modal__inner">
+                  <a href="#" class="modal__item modal__step" data-target="homecare">
+                    <div class="modal__item-img">
+                      <img src="img/step1_icon1.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Home care for myself or a family member
+                      </p>
+                    </div>
+
+                  </a>
+
+                  <a href="#" class="modal__item modal__step" data-target="business">
+                    <div class="modal__item-img">
+                      <img src="img/step1_icon2.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Business solutions for my clients or facility
+                      </p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="modal__item modal__step" data-target="work">
+                    <div class="modal__item-img">
+                      <img src="img/step1_icon3.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Work oppotunities at Care Indeed
+                      </p>
+                    </div>
+                  </a>
+                </div>
+
+
+              </div> 
+
+
+              <!--  Homecare -->
+
+              <div class="modal__window modal__homecare homecare">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target='firstwindow'>
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                 Which type of care do you need?
+                </h2>
+
+                <div class="modal__inner">
+
+                  <a href="#" class="modal__item modal__step" data-target='homecareserv'>
+                    <div class="modal__item-img">
+                      <img src="img/homecare_icon1.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Home Care Services
+                      </p>
+                    </div>
+
+                  </a>
+
+                  <a href="#" class="modal__item modal__step" data-target='medicalcare'>
+                    <div class="modal__item-img">
+                      <img src="img/homecare_icon2.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Medical Care
+                      </p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="modal__item modal__step" data-target='covidtest'>
+                    <div class="modal__item-img">
+                      <img src="img/homecare_icon3.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        COVID-19 Testing & Injections
+                      </p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="modal__item modal__step" data-target='comunserv'>
+                    <div class="modal__item-img">
+                      <img src="img/homecare_icon4.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        CI-Community Services
+                      </p>
+                    </div>
+                  </a>
+
+                </div>
+
+
+              </div>  
+
+              <div class="modal__window modal__homecare comunserv" >
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target='homecare'>
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  Which type of care do you need?
+                </h2>
+
+                <div class="modal__inner">
+
+                  <a href="#" class="modal__item modal__step" data-target="erandserv">
+                    <div class="modal__item-img">
+                      <img src="img/servlist_icon1.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Errand Solutions
+                      </p>
+                    </div>
+
+                  </a>
+
+                  <a href="#" class="modal__item modal__step" data-target="familyvr">
+                    <div class="modal__item-img">
+                      <img src="img/servlist_icon2.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Family Caregiving VR Training
+                      </p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="modal__item modal__step" data-target="inhomeserv">
+                    <div class="modal__item-img">
+                      <img src="img/servlist_icon3.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        In Home Services & Senior Events
+                      </p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/servlist_icon4.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Meet with Care Specialist
+                      </p>
+                    </div>
+                  </a>
+
+
+                </div>
+
+
+              </div>
+
+              <div class="modal__window modal__service ci-go erandserv">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target='comunserv'>
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  Errand Services for Seniors
+                </h2>
+                <div class="modal__text">
+                  <p>
+                    We understand simply running to the store to grab a few items may seem like a daunting task for you
+                    or your loved ones these days. Let us take that stress off your plate.
+                  </p>
+                </div>
+
+                <div class="modal__inner">
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_icon1.png" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Grocery Delivery
+                      </p>
+                    </div>
+
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_icon2.png" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Medication Pick Up
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_icon3.png" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Dry Cleaning
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_icon4.png" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Mail Services
+                      </p>
+                    </div>
+                  </div>
+
+
+                </div>
+                <a href="" class="modal__btn">
+                  Shop now
+                </a>
+              </div> 
+
+              <div class="modal__window modal__service ci-vr familyvr" >
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target='comunserv'>
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  Family Caregiving VR Training
+                </h2>
+                <div class="modal__text">
+                  <p>
+                    Care Indeed’s Virtual Reality Training Program utilizes innovative technology to simulate caring for individuals with Alzheimer’s and dementia-related diagnoses - increasing quality of care and improving caregiving skillsets. 
+                  </p>
+                </div>
+
+                <div class="modal__inner">
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_vr_icon1.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Engaging Learning Environments
+                      </p>
+                    </div>
+
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_vr_icon2.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Develop Confidence & Expand Specialized Skill Sets
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_vr_icon3.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Simulates Real<br> Interactions
+                      </p>
+                    </div>
+                  </div>
+              
+
+                </div>
+                <a href="" class="modal__btn">
+                  Start Learning
+                </a>
+              </div>
+
+              <div class="modal__window modal__service ci-communiti inhomeserv">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target='comunserv'>
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  In Home Services & Senior Events
+                </h2>
+                <div class="modal__text">
+                  <p>
+                    Gain access to an entire ecosystem of discounted quality in-home senior services. Our community vendors offer a broad range of client-focused assistance to make your life easier- all arranged from the comfort of home.
+                  </p>
+                </div>
+
+                <div class="modal__inner">
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_communiti_icon1.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Home Services
+                      </p>
+                    </div>
+
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_communiti_icon2.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Centralized Platform
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_communiti_icon3.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Certified Vendors
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_communiti_icon4.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Social Activities
+                      </p>
+                    </div>
+                  </div>
+
+
+                </div>
+                <a href="" class="modal__btn">
+                  Shop now
+                </a>
+              </div>
+
+              <div class="modal__window modal__service care-bundle homecareserv">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target='homecare'>
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  Care Bundles
+                </h2>
+                <div class="modal__text">
+                  <p>
+                    Care Bundle is a convenient, affordable, and easy way to arrange a suite of home care and lifestyle support. Tailored to your individual needs, our plans offer access to a community of exclusive resources, services, and more!
+                  </p>
+                </div>
+
+                <div class="modal__inner">
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/carebundle_icon1.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Professional Care
+                      </p>
+                    </div>
+
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/carebundle_icon2.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Lifestyle Support
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/carebundle_icon3.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Tailored Services
+                      </p>
+                    </div>
+                  </div>
+              
+
+                </div>
+                <a href="#" class="modal__btn">
+                  CHECK OUT NOW
+                </a>
+              </div>
+
+              <div class="modal__window modal__service medical medicalcare">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target='homecare'>
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  What type of Medical Care do you need?
+                </h2>
+                <div class="modal__descr">
+                  <p>
+                    Please check all that apply.
+                  </p>
+                </div>
+
+                <div class="modal__inner radiobuttons">
+
+                  <div class="modal__item">
+                    <div class="modal__item-btn">
+                      <input id="radio-1" type="radio" name="radio" value="Skilled Nursing">
+                      <label for="radio-1">Skilled Nursing</label>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-btn">
+                      <input id="radio-2" type="radio" name="radio" value="Therapy Services">
+                      <label for="radio-2">Therapy Services</label>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-btn">
+                      <input id="radio-3" type="radio" name="radio" value="Care Management">
+                      <label for="radio-3">Care Management</label>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="modal__btn modal__step radio__btn" data-target="payforserv" disabled>
+                  next
+                </button>
+
+                <div class="modal__info">
+                  Not sure?<a href="#"> Schedule a meeting</a> with Customer Success Team
+                </div>
+
+              </div>
+
+              <div class="modal__window modal__service medical mc-2 payforserv">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target='medicalcare'>
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  How will you pay for the service?
+                </h2>
+
+                <div class="modal__inner">
+
+                  <a href="#" class="modal__item modal__step" data-target="form-1">
+                    <div class="modal__item-btn">
+                      Private Pay
+                    </div>
+                  </a>
+
+                  <a href="#" class="modal__item modal__step" data-target="form-1">
+                    <div class="modal__item-btn">
+                      Insurance
+                    </div>
+                  </a>
+
+                </div>
+
+              </div>
+
+              <div class="modal__window modal__service form form-1 ">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target="payforserv">
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  Please fill in your information below so we can contact you with a customized care plan.
+                </h2>
+                <div class="modal__form">
+                  <form>
+                    <div class="inputfield">
+                      <input class="textfield firstname" type="text" id="firstname">
+                      <label for="firstname">First Name</label>
+                    </div>
+                    <div class="inputfield">
+                      <input class="textfield lastname" type="text" id="lastname">
+                      <label for="lastname">Last Name</label>
+                    </div>
+                    <div class="inputfield">
+                      <input class="textfield email" type="text" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                      <label for="email">Email Address</label>
+                    </div>
+                    <div class="inputfield">
+                      <input class="textfield tel" type="number" id="tel">
+                      <label for="tel">Phone Number</label>
+                    </div>
+                    <div class="inputfield messages">
+                      <textarea class="textfield" id="massage"></textarea>
+                      <label for="massage">Messages:</label>
+                    </div>
+                    <div class="form__btn">
+                      <!-- <button class="modal__btn disabled">
+                        Submit
+                      </button> -->
+
+                      <a href="#" class="modal__btn disabled modal__step" data-target="thankserv">
+                        Submit
+                      </a>
+
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+
+              <div class="modal__window modal__service thank thankserv">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target="firstwindow">
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                 Thanks for your interest
+                </h2>
+                <div class="modal__text">
+                  <p>
+                    Our customer success advisor will will contact you shortly. In the mean time, you can learn more about <a href="#"> Care Indeed</a>, or reach out to us directly at <a href="tel:(650) 352-4007">(650) 352-4007</a>.
+                  </p>
+                </div>
+
+                <a href="#" class="modal__btn modal__step" data-target="firstwindow" data-bs-dismiss="modal" aria-label="Close">
+                  Close
+                </a>
+
+              </div>
+
+              <div class="modal__window modal__service testing covidtest">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target='homecare'>
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  COVID-19 Testing & Injections
+                </h2>
+                <div class="modal__text">
+                  <p>
+                    Care Indeed offers the convenience of COVID-19 testing and flu shot administration at home for your client's and their immediate families. For our partners throughout the community, our licensed nursing staff can also provide testing at your place of business for staff and residents.
+                  </p>
+                </div>
+
+                <div class="modal__inner">
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/test__cheked_icon.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Mitigate Risks
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/test__cheked_icon.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Administration by Licensed Staff
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/test__cheked_icon.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Safety & Convenience
+                      </p>
+                    </div>
+                  </div>
+              
+                </div>
+
+                <a href="#" class="modal__btn">
+                  Learn More
+                </a>
+              </div>
+
+
+
+              <!-- Business -->  
+
+              <div class="modal__window modal__business business">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target='firstwindow'>
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  What services does your business need?
+                </h2>
+
+                <div class="modal__inner">
+
+                  <a href="#" class="modal__item modal__step" data-target="caregiver-vr">
+                    <div class="modal__item-img">
+                      <img src="img/business_icon1.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Caregiver VR Training for Employees
+                      </p>
+                    </div>
+
+                  </a>
+
+                  <a href="#" class="modal__item modal__step" data-target="therapyserv">
+                    <div class="modal__item-img">
+                      <img src="img/business_icon2.png" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Therapy Services for Employees
+                      </p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="modal__item modal__step" data-target="staffing">
+                    <div class="modal__item-img">
+                      <img src="img/business_icon3.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Supplemental Staffing
+                      </p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="modal__item modal__step" data-target="form-2">
+                    <div class="modal__item-img">
+                      <img src="img/business_icon4.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Meet with Business Solution Specialist
+                      </p>
+                    </div>
+                  </a>
+
+
+                </div>
+
+
+              </div>
+
+              <div class="modal__window modal__service ci-vr caregiver-vr">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target="business">
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  Caregiver VR Training for Employees
+                </h2>
+                <div class="modal__text">
+                  <p>
+                    Care Indeed’s Virtual Reality Training Program utilizes innovative technology to simulate caring for individuals with Alzheimer’s and dementia-related diagnoses - increasing quality of care and improving caregiving skillsets. 
+                  </p>
+                </div>
+
+                <div class="modal__inner">
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_vr_icon1.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Engaging Learning Environments
+                      </p>
+                    </div>
+
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_vr_icon2.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Develop Confidence & Expand Specialized Skill Sets
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/serv_vr_icon3.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Simulates Real<br> Interactions
+                      </p>
+                    </div>
+                  </div>
+              
+
+                </div>
+                <a href="#" class="modal__btn">
+                  Learn More
+                </a>
+              </div>
+
+              <div class="modal__window modal__service testing staffing">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back"  data-target="business">
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  Healthcare Staffing
+                </h2>
+                <div class="modal__text">
+                  <p>
+                    Care Indeed's Registered Nurse (RN), Licensed Vocational Nurse (LVN), Certified Nursing Assistants (CNAs), home health aides (HHAs) and Private Duty Aide (PDA) want to help keep your staff healthy and safe with our workforce solutions.
+                  </p>
+                </div>
+
+                <div class="modal__inner">
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/test__cheked_icon.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Flexible Scheduling
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/test__cheked_icon.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Stringent Hiring Process
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/test__cheked_icon.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Ensured safety
+                      </p>
+                    </div>
+                  </div>
+              
+                </div>
+
+                <a href="#" class="modal__btn">
+                  Learn More
+                </a>
+              </div>
+
+              <div class="modal__window modal__service testing therapyserv">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target="business">
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  Therapy Services for Employees
+                </h2>
+                <div class="modal__text">
+                  <p>
+                    Care Indeed physio, speech, and occupational therapists want to help keep your staff healthy and safe by providing per diem and direct hire staffing for your organization.
+                  </p>
+                </div>
+
+                <div class="modal__inner">
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/test__cheked_icon.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Healthy & Safe
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/test__cheked_icon.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Reduce Stress
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/test__cheked_icon.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Flexible Scheduling
+                      </p>
+                    </div>
+                  </div>
+              
+                </div>
+
+                <a href="#" class="modal__btn">
+                  Learn More
+                </a>
+              </div>
+
+              <div class="modal__window modal__service form form-2">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target="business">
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  Please complete the form and a service representative will reach out to you shortly.
+                </h2>
+                <div class="modal__form">
+                  <form>
+                    <div class="inputfield">
+                      <input class="textfield firstname" id="firstname2" type="text">
+                      <label for="firstname2">First Name</label>
+                    </div>
+                    <div class="inputfield">
+                      <input class="textfield lastname" id="lastname2" type="text">
+                      <label for="lastname2">Company Name</label>
+                    </div>
+                    <div class="inputfield">
+                      <input class="textfield email" id="email2" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                      <label for="email2">Email Address</label>
+                    </div>
+                    <div class="inputfield">
+                      <input class="textfield tel" id="tel2" type="number" >
+                      <label for="tel2">Phone Number</label>
+                    </div>
+                    <div class="inputfield messages">
+                      <textarea class="textfield massage" id="massage2"></textarea>
+                      <label for="massage2">Messages:</label>
+                    </div>
+                    <div class="form__btn">
+                      <!-- <button class="modal__btn disabled" >
+                        Submit
+                      </button> -->
+
+                      <a href="#" class="modal__btn disabled modal__step" data-target="thankbusiness">
+                        Submit
+                      </a>
+
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+
+              <div class="modal__window modal__service thank thankbusiness">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target="firstwindow">
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                 Thanks for your interest
+                </h2>
+                <div class="modal__text">
+                  <p>
+                    Our customer success advisor will be contacting you shortly. In the mean time, you can learn more about <a href="#"> Care Indeed's business solutions</a>.
+                  </p>
+                </div>
+
+                <a href="#" class="modal__btn modal__step" data-target="firstwindow" data-bs-dismiss="modal" aria-label="Close">
+                  Close
+                </a>
+
+              </div>
+
+
+              <!-- Work -->
+
+              <div class="modal__window modal__work work">
+                <div class="modal__top">
+                  <img src="img/CareIndeed_logo.svg" alt="CareIndeed" class="modal__logo">
+                  <a href="#" class="btn__back" data-target='firstwindow'>
+                    <img src="img/arrow_back.svg" alt="arrow">
+                    Back
+                  </a>
+                </div>
+                <h2 class="modal__title">
+                  Which type of position are you looking for?
+                </h2>
+
+                <div class="modal__inner">
+
+                  <a href="#" class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/work_icon1.svg" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Office Position
+                      </p>
+                    </div>
+
+                  </a>
+
+                  <a href="#" class="modal__item">
+                    <div class="modal__item-img">
+                      <img src="img/work_icon2.png" alt="icon">
+                    </div>
+                    <div class="modal__item-text">
+                      <p>
+                        Medical/Field Position
+                      </p>
+                    </div>
+                  </a>
+
+                </div>
+
+
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+  </div>
+
+
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
