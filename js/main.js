@@ -49,7 +49,7 @@ $(function () {
 
     $('.modal__step, .btn__back').on('click', function () {
         let target = $(this).attr('data-target');
-        $('.modal-body').find('.modal__window').removeClass('show__window').hide();
+        $('.modal__window').removeClass('show__window').hide();
         $('.' + target).addClass('show__window').fadeIn();
         return false;
     });
@@ -65,7 +65,13 @@ $(function () {
         }
     });
 
-
+    // close btn //
+    
+    $('.btn-close').on('click', function () {
+        $('.modal__window').removeClass('show__window').hide();
+        $('.firstwindow').addClass('show__window').fadeIn();
+        return false;
+    });
 
 
 
